@@ -1,0 +1,10 @@
+﻿Console.WriteLine("Введите длину стороны а:");
+double a = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Введите длину стороны b:");
+double b = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Введите длину стороны c:");
+double c = Convert.ToDouble(Console.ReadLine());
+double volume = a * b * c;
+double lateral = 2 * (a * c + b * c);
+Console.WriteLine($"Объем параллелепипеда:{volume}");
+Console.WriteLine($"Площадь боковой поверхности:{lateral}");
