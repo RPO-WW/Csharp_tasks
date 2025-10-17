@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿int number = 123;
 int digit1 = number / 100;
 int digit2 = (number / 10) % 10;
@@ -13,4 +14,33 @@ if (square == sumOfCubes)
 else
 {
     Console.WriteLine($"Квадрат числа {number} НЕ равен сумме кубов его цифр.");
+=======
+﻿using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Введите радиус окружности: ");
+
+        if (double.TryParse(Console.ReadLine(), out double radius))
+        {
+            if (radius < 0)
+            {
+                Console.WriteLine("Радиус не может быть отрицательным");
+                return;
+            }
+
+            double circumference = 2 * Math.PI * radius;
+            double area = Math.PI * radius * radius;
+
+            Console.WriteLine($"Длина окружности: {circumference}");
+            Console.WriteLine($"Площадь круга: {area}");
+        }
+        else
+        {
+            Console.WriteLine("Неккоректный ввод. Пожалуйста , введите число");
+        }
+    }
+>>>>>>> 3c7e93fb573d02d87ae4eec4ab74c6ca21604e04
 }

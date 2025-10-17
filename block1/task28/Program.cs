@@ -1,5 +1,6 @@
 ﻿using System;
 
+<<<<<<< HEAD
 public class CompareDigits
 {
     public static void Main(string[] args)
@@ -60,5 +61,20 @@ public class CompareDigits
         {
             Console.WriteLine("в) Вторая и последняя цифры равны.");
         }
+=======
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Введите длину ребра куба: ");
+        double edgeLenght = Convert.ToDouble(Console.ReadLine());
+
+        double volume = Math.Pow(edgeLenght, 3);
+
+        double lateralSurfaceArea = 4 * Math.Pow(edgeLenght, 2);
+
+        Console.WriteLine($"Обьем куба: {volume:F2}");
+        Console.WriteLine($"Площадь боковой поверхности: {lateralSurfaceArea}");
+>>>>>>> 3c7e93fb573d02d87ae4eec4ab74c6ca21604e04
     }
 }
