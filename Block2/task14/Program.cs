@@ -29,7 +29,7 @@ Console.WriteLine($"2 * x: {2 * x}");
 Console.WriteLine($"Math.Sin(x): {Math.Sin(x)}");
 Console.WriteLine($"Math.Pow(2, a): {Math.Pow(2, a)}");
 Console.WriteLine($"Math.Sqrt(x): {Math.Sqrt(x)}");
-Console.WriteLine($"|n|");
+Console.WriteLine($"|n| : {n}");
 Console.WriteLine($"5 * Math.Cos(y): {5 * Math.Cos(y)}");
 Console.WriteLine($"Math.Pow(2, 7.5 * a): {Math.Pow(2, 7.5 * a)}");
 Console.WriteLine($"Math.Pow(x, 1.0 / 3.0) {Math.Pow(x, 1.0 / 3.0)}");
